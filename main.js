@@ -1,6 +1,6 @@
-import Header from './modules/headers/header.js';
-import Card from './modules/cards/card.js';
-import Footer from './modules/footers/footer.js';
+import Header from './modules/layout/headers/header.js';
+import Card from './modules/layout/cards/card.js';
+import Footer from './modules/layout/footers/footer.js';
 
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
@@ -10,8 +10,9 @@ export default class Main extends Component {
   render(){
     return (
       <div>
-        <Header title={'Abunai MMA'} />
-
+        <Header title={'Abunai MMA header'} />
+        <Card title={'Students Card'} />
+        <Footer title={'Abuanai MMA footer'} />
       </div>
     );
   }
