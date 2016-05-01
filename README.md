@@ -1,2 +1,3 @@
-# myApp
-This is the my first project app that was started on Apr 23rd, 2016
+#Test App with ReactJS
+##This link explains how this project is structured
+###https://www.twilio.com/blog/2015/08/setting-up-react-for-es6-with-webpack-and-babel-2.html
